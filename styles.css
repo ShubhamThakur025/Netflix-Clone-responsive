@@ -179,10 +179,11 @@ footer{
 #menuContent{
     background-color: rgba(0,0,0,0.3);
     display: none;
+    position: absolute;
 }
 #menuContent ul li{
-    max-width: fit-content;
-    margin: auto;
+    width: 100vw;
+    text-align: center;
     list-style-type: none;
     padding: 1vw;
     font-size: 2vw;
@@ -265,7 +266,7 @@ footer{
         display: none;
     }
     .top .footer{
-        margin-top: 10vw;
+        margin-top: 21vw;
         margin-left: 4.6vw;
     }
     .See-again-head p, .heading p{
@@ -276,8 +277,9 @@ footer{
         margin: 0.5vw;
     }
     .images img{
-        width: 225px;
-        margin-top: 3vw;
+        max-width: 1000px;
+        width: 300px;
+        margin: 3vw 6vw 0vw 6vw;
     }
     .topTen .images{
         display: flex;
